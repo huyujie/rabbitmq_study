@@ -26,3 +26,4 @@ channel.basic_consume(callback,
                       queue='task_queue')
 
 channel.start_consuming()
+

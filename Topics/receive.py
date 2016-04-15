@@ -33,3 +33,4 @@ channel.basic_consume(callback,
                       no_ack=True)
 
 channel.start_consuming()
+
